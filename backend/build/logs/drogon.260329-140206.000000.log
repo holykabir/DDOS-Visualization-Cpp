@@ -1,0 +1,12 @@
+20260329 13:42:05.549466 UTC 625 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260329 13:42:05.549489 UTC 625 INFO  [Main] Attack generator running - main.cpp:62
+20260329 13:47:20.392043 UTC 627 INFO  [WS] Client connected: 127.0.0.1:57878  total=1 - websocket_server.hpp:18
+20260329 13:47:45.170734 UTC 627 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260329 13:47:45.866229 UTC 627 INFO  [WS] Client connected: 127.0.0.1:37330  total=1 - websocket_server.hpp:18
+20260329 13:48:54.191722 UTC 627 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260329 13:48:54.198938 UTC 627 FATAL no writing but write callback called - TcpConnectionImpl.cc:327
+20260329 13:48:58.183777 UTC 632 INFO  [WS] Client connected: 127.0.0.1:35902  total=1 - websocket_server.hpp:18
+20260329 14:02:05.756489 UTC 424 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260329 14:02:05.756499 UTC 424 INFO  [Main] Attack generator running - main.cpp:62
+20260329 14:13:00.159336 UTC 424 WARN  SIGTERM signal received. - HttpAppFrameworkImpl.cc:181
+20260329 14:13:00.165713 UTC 424 INFO  [Main] Shutdown complete. - main.cpp:92

@@ -1,0 +1,5 @@
+20260330 09:53:23.885909 UTC 432 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260330 09:53:23.885916 UTC 432 INFO  [Main] Attack generator running - main.cpp:62
+20260330 09:53:43.678490 UTC 555 FATAL Address already in use (errno=98) , Bind address failed at 0.0.0.0:8080 - Socket.cc:67
+20260330 09:55:32.041019 UTC 440 INFO  [WS] Client connected: 127.0.0.1:48524  total=1 - websocket_server.hpp:18
+20260330 09:56:18.357344 UTC 440 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -Wextra -Wpedantic -O3 -DNDEBUG -march=native CMakeFiles/threatscope.dir/main.cpp.o -o threatscope  /usr/lib/x86_64-linux-gnu/libdrogon.so.1.8.7 /usr/lib/x86_64-linux-gnu/libtrantor.so.1.5.12 /usr/lib/x86_64-linux-gnu/libjsoncpp.so -lyaml-cpp 

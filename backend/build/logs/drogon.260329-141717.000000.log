@@ -1,0 +1,50 @@
+20260329 14:13:01.637161 UTC 517 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260329 14:13:01.637178 UTC 517 INFO  [Main] Attack generator running - main.cpp:62
+20260329 14:17:17.681200 UTC 548 FATAL Address already in use (errno=98) , Bind address failed at 0.0.0.0:8080 - Socket.cc:67
+20260329 14:17:23.388426 UTC 527 INFO  [WS] Client connected: 127.0.0.1:55552  total=1 - websocket_server.hpp:18
+20260329 14:43:50.602879 UTC 527 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260329 14:43:50.617246 UTC 527 FATAL no writing but write callback called - TcpConnectionImpl.cc:327
+20260329 14:43:50.618886 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618902 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618905 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618908 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618909 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618911 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618913 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618914 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618916 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618918 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618920 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618923 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618925 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618926 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618927 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618929 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618930 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618932 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618934 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618957 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618959 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618961 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618962 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618964 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618965 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618967 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618968 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618969 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618971 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618972 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618974 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618975 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618977 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618978 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618979 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618981 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618983 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.618984 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.619133 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.619136 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.619137 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.619139 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.619140 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 14:43:50.619142 UTC 527 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453

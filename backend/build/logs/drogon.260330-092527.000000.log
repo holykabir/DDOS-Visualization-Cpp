@@ -1,0 +1,43 @@
+20260329 14:58:54.831738 UTC 606 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260329 14:58:54.831745 UTC 606 INFO  [Main] Attack generator running - main.cpp:62
+20260329 15:00:15.404706 UTC 612 INFO  [WS] Client connected: 127.0.0.1:45654  total=1 - websocket_server.hpp:18
+20260329 15:00:22.211354 UTC 612 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260329 15:11:28.077205 UTC 463 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260329 15:11:28.077214 UTC 463 INFO  [Main] Attack generator running - main.cpp:62
+20260329 15:27:57.886997 UTC 4008 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260329 15:27:57.887003 UTC 4008 INFO  [Main] Attack generator running - main.cpp:62
+20260329 15:41:53.976226 UTC 4012 INFO  [WS] Client connected: 127.0.0.1:50566  total=1 - websocket_server.hpp:18
+20260329 15:53:36.155627 UTC 4012 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260329 15:53:36.163524 UTC 4012 FATAL no writing but write callback called - TcpConnectionImpl.cc:327
+20260329 15:53:36.173180 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173193 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173195 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173197 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173216 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173217 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173219 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173220 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173221 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173223 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173224 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173226 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173227 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260329 15:53:36.173229 UTC 4012 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:07:58.774353 UTC 410 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260330 09:07:58.774362 UTC 410 INFO  [Main] Attack generator running - main.cpp:62
+20260330 09:08:04.370043 UTC 414 INFO  [WS] Client connected: 127.0.0.1:50784  total=1 - websocket_server.hpp:18
+20260330 09:24:07.453297 UTC 414 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 09:24:07.457774 UTC 414 FATAL no writing but write callback called - TcpConnectionImpl.cc:327
+20260330 09:24:07.460915 UTC 414 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:24:07.460925 UTC 414 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:24:07.460927 UTC 414 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:24:07.460930 UTC 414 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:24:07.460932 UTC 414 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:25:27.247822 UTC 493 FATAL Address already in use (errno=98) , Bind address failed at 0.0.0.0:8080 - Socket.cc:67
+20260330 09:25:32.458501 UTC 414 INFO  [WS] Client connected: 127.0.0.1:35662  total=1 - websocket_server.hpp:18
+20260330 09:25:46.944927 UTC 414 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 09:26:17.102251 UTC 416 INFO  [WS] Client connected: 127.0.0.1:33122  total=1 - websocket_server.hpp:18
+20260330 09:26:19.687514 UTC 416 FATAL Transport endpoint is not connected (errno=107) sockets::shutdownWrite - Socket.cc:110
+20260330 09:26:19.687609 UTC 416 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:26:19.687612 UTC 416 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 09:26:19.687646 UTC 416 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27

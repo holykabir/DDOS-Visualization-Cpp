@@ -1,0 +1,3 @@
+20260330 09:35:44.034444 UTC 870 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260330 09:35:44.034457 UTC 870 INFO  [Main] Attack generator running - main.cpp:62
+20260330 09:38:41.749946 UTC 1827 FATAL Address already in use (errno=98) , Bind address failed at 0.0.0.0:8080 - Socket.cc:67

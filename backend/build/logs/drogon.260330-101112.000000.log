@@ -1,0 +1,24 @@
+20260330 10:06:09.978543 UTC 417 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260330 10:06:09.978552 UTC 417 INFO  [Main] Attack generator running - main.cpp:62
+20260330 10:06:32.372296 UTC 423 INFO  [WS] Client connected: 127.0.0.1:54672  total=1 - websocket_server.hpp:18
+20260330 10:06:52.659639 UTC 423 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:06:52.659672 UTC 423 WARN  Connection is not connected,give up sending - TcpConnectionImpl.cc:453
+20260330 10:06:53.248796 UTC 420 INFO  [WS] Client connected: 127.0.0.1:35212  total=1 - websocket_server.hpp:18
+20260330 10:06:54.613956 UTC 420 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:06:55.237738 UTC 423 INFO  [WS] Client connected: 127.0.0.1:35220  total=1 - websocket_server.hpp:18
+20260330 10:06:58.044583 UTC 423 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:06:58.653573 UTC 422 INFO  [WS] Client connected: 127.0.0.1:50016  total=1 - websocket_server.hpp:18
+20260330 10:07:02.047287 UTC 422 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:07:02.745337 UTC 422 INFO  [WS] Client connected: 127.0.0.1:50026  total=1 - websocket_server.hpp:18
+20260330 10:07:07.796891 UTC 422 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:07:08.417025 UTC 422 INFO  [WS] Client connected: 127.0.0.1:55248  total=1 - websocket_server.hpp:18
+20260330 10:07:11.834398 UTC 422 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:07:12.394219 UTC 426 INFO  [WS] Client connected: 127.0.0.1:55256  total=1 - websocket_server.hpp:18
+20260330 10:07:15.783085 UTC 426 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:07:20.726923 UTC 426 INFO  [WS] Client connected: 127.0.0.1:44084  total=1 - websocket_server.hpp:18
+20260330 10:07:55.049627 UTC 426 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:07:55.676035 UTC 421 INFO  [WS] Client connected: 127.0.0.1:41248  total=1 - websocket_server.hpp:18
+20260330 10:08:03.800199 UTC 421 INFO  [WS] Client disconnected. total=0 - websocket_server.hpp:27
+20260330 10:10:31.404114 UTC 433 INFO  [AttackGenerator] Started 4 workers at ~400 events/sec - attack_generator.hpp:54
+20260330 10:10:31.404128 UTC 433 INFO  [Main] Attack generator running - main.cpp:62
+20260330 10:11:12.676578 UTC 457 FATAL Address already in use (errno=98) , Bind address failed at 0.0.0.0:8080 - Socket.cc:67

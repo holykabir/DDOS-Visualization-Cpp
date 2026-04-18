@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThreatScope — Global DDoS Monitor</title>
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Three.js import map -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three":          "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/":  "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="app">
+
+  <!-- ══════════ HEADER ══════════ -->
+  <header id="hdr">
+    <div class="hdr-l">
+      <div class="logo">
+        <span class="logo-t">Threat</span><span class="logo-a">Scope</span>
+      </div>
+      <div class="hdr-divider"></div>
+      <span class="hdr-sub">Global DDoS Visualization · Simulation Only</span>
+    </div>
+
+    <div class="hdr-c">
+      <div class="live-badge">
+        <span class="live-dot"></span>
+        <span>Live</span>
+      </div>
+      <span id="clock" class="clock">00:00:00 UTC</span>
+    </div>
+
+    <div class="hdr-r">
+      <div id="conn-badge" class="conn-badge">
+        <span class="conn-dot"></span>
+        <span id="conn-text">Initializing</span>
+      </div>
+      <span class="sim-tag">Simulation only · No real traffic</span>
+    </div>
+  </header>
+
+  <!-- ══════════ MAIN ══════════ -->
+  <main id="main">
+
+    <!-- LEFT PANEL -->
+    <aside id="panel-l">
+
+      <!-- Stats -->
+      <div class="panel">
+        <div class="panel-hdr">Statistics</div>
+        <div class="stat-grid">
+          <div class="stat-cell">
+            <div class="slbl">Total Attacks</div>
+            <div class="sval" id="s-total">0</div>
+          </div>
+          <div class="stat-cell">
+            <div class="slbl">Attacks / sec</div>
+            <div class="sval" id="s-aps">0</div>
+          </div>
+          <div class="stat-cell">
+            <div class="slbl">Active Arcs</div>
+            <div class="sval" id="s-arcs">0</div>
+          </div>
+          <div class="stat-cell">
+            <div class="slbl">Peak Rate</div>
+            <div class="sval" id="s-peak">0</div>
+            <div class="sunit">pps</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Attack Vectors -->
+      <div class="panel">
+        <div class="panel-hdr">Attack Vectors</div>
+        <div id="vec-list"></div>
+      </div>
+
+      <!-- Top Sources -->
+      <div class="panel panel-grow">
+        <div class="panel-hdr">Top Sources</div>
+        <div id="top-src" class="rlist"></div>
+      </div>
+
+    </aside>
+
+    <!-- GLOBE -->
+    <div id="globe-wrap">
+      <canvas id="gc"></canvas>
+
+      <!-- Zoom/interact hint — fades after 4s via CSS -->
+      <div class="zoom-hint">Scroll to zoom · Drag to rotate</div>
+
+      <!-- Counter -->
+      <div id="big-counter">
+        <div id="big-num">0</div>
+        <div id="big-lbl">Attacks Intercepted</div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <aside id="panel-r">
+
+      <!-- Top Targets -->
+      <div class="panel panel-grow">
+        <div class="panel-hdr">Top Targets</div>
+        <div id="top-tgt" class="rlist"></div>
+      </div>
+
+      <!-- Controls -->
+      <div class="panel">
+        <div class="panel-hdr">Filters &amp; Controls</div>
+        <div class="ctrl-wrap">
+
+          <div class="ctrl-row">
+            <label class="clbl" for="flt-type">Attack Type</label>
+            <select id="flt-type" class="csel">
+              <option value="all">All Types</option>
+              <option value="SYN Flood">SYN Flood</option>
+              <option value="UDP Flood">UDP Flood</option>
+              <option value="HTTP Flood">HTTP Flood</option>
+              <option value="DNS Amplification">DNS Amplification</option>
+              <option value="ICMP Flood">ICMP Flood</option>
+              <option value="NTP Amplification">NTP Amplification</option>
+            </select>
+          </div>
+
+          <div class="ctrl-row">
+            <label class="clbl" for="flt-rate">
+              Min Rate: <span id="rate-disp">0</span> pps
+            </label>
+            <input type="range" id="flt-rate" class="cslider"
+                   min="0" max="90000" value="0" step="1000" />
+          </div>
+
+          <div class="ctrl-row ctrl-btns">
+            <button id="btn-pause" class="cbtn">⏸ Pause</button>
+            <button id="btn-heat"  class="cbtn">Heat Map</button>
+          </div>
+
+          <button id="btn-reset" class="cbtn cbtn-full">↺ Reset Camera</button>
+
+        </div>
+      </div>
+
+      <!-- Live Feed -->
+      <div class="panel panel-feed">
+        <div class="panel-hdr">
+          Live Feed
+          <span class="feed-cnt" id="feed-cnt">0</span>
+        </div>
+        <div id="feed"></div>
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer id="ftr">
+    <span class="ftr-warn">
+      ⚠ Simulated data only — no real network traffic is generated
+    </span>
+    <span class="ftr-copy">ThreatScope © 2024</span>
+  </footer>
+
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>

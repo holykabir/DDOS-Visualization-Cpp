@@ -1,0 +1,7 @@
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/threatscope.dir
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/edit_cache.dir
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/list_install_components.dir
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/install.dir
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/install/local.dir
+/mnt/d/ddos-visualizer/backend/build/CMakeFiles/install/strip.dir
